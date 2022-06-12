@@ -158,7 +158,14 @@ padding-bottom: 25px;
 .hero.icon,
 .icon {
     background-color: var(--backgroubd-color);
-
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), 
+    url(../images/Img17.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1280px;
+    margin: 0 auto;
     padding-top: 200px;
     padding-bottom: 197px;
     text-align: center;
@@ -281,6 +288,7 @@ margin-right: 30px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     margin-top: 10px;
+    margin-bottom: 16px;
 }
 .about-us:not(:last-child){
     margin-right: 30px;
@@ -306,6 +314,29 @@ margin-right: 30px;
 }
 .we {
     text-decoration: none;
+}
+.employee-soc-list {
+    display: flex;
+    justify-content: center;
+}
+
+.employee-soc-item {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+
+.employee-soc-item:first-child{
+    margin-left: 0px;
+}
+
+.employee-soc-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: block;
+    background-color: #AFB1B8;
 }
 
 /* Futer */
