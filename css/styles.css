@@ -35,6 +35,9 @@ body {
     color:var(--primary-text-color);
     font-family: Roboto, sans-serif;
 }
+.link {
+    text-decoration: none;
+}
 
 .container {
     width: 1200px;
@@ -260,6 +263,7 @@ margin-right: 30px;
 
 
 /* -------------- Team -------------- */
+
 .our-photos {
     display: flex;
     padding-top: 50px;
@@ -331,13 +335,26 @@ margin-right: 30px;
 }
 
 .employee-soc-link {
-    display: block;
+    display: flex;
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    display: block;
-    background-color: #AFB1B8;
+    background-color: var(--background-white-color);
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
 }
+
+.employee-soc-icon {
+    fill: currentColor ; 
+}
+
+.employee-soc-link:hover, .employee-soc-link:focus{
+    background-color: var(--accent-color);
+    color: var(--background-white-color) ;
+
+}
+
 
 /* Futer */
 .logo-light {
