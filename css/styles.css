@@ -148,6 +148,20 @@ padding-bottom: 25px;
     align-items: center;   
 }
 
+.mail.contact-link {
+    color: var(--primary-text-color);
+}
+
+.contact-soc-icon {
+    margin-right: 10px;
+    fill: currentColor;
+    
+}
+.contact-soc-icon:hover
+.contact-soc-icon:focus {
+    color: var(--accent-color);
+}
+
 /* -------------- Hero -------------- */
 .hero .hero-title {
     color: var(--background-white-color);
@@ -176,6 +190,7 @@ padding-bottom: 25px;
 .button {
     color: var(--background-white-color);
     background-color: var(--accent-color);
+    border-style: none;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -192,6 +207,8 @@ padding-bottom: 25px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
+
 /* -------------- Section -------------- */
 .section .section-title {
     color: var(--header-color);
@@ -245,6 +262,7 @@ margin-right: 30px;
 
 .feature-list{
     display: flex;
+    margin-top: 30px;
 }
 
 .visually-hidden {
@@ -259,6 +277,31 @@ margin-right: 30px;
     clip-path: inset(50%);
     margin: -1px;
 }
+
+.benefits-list {
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+.benefits-soc-item {
+    width: 270px;
+    height: 120px;
+    margin-left: 30px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    padding: 25px 100px;
+}
+
+.benefits-soc-item:first-child {
+    margin-left: 0px;
+}
+
 
 
 
@@ -452,12 +495,61 @@ address {
     padding-bottom: 60px;
 
 }
-
+.text-futer {
+    color: var(--background-white-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 
 .adress-futer {
     margin-top: 20px;
 }
+.futer-container {
+    display: flex;
+    align-items: baseline;
+}
 
+.futer-soc-list {
+    display: flex;
+    margin-top: 20px;
+}
+.futer-soc-link {
+    display: flex;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)); 
+justify-content: center;
+align-items: center;
+color: var(--background-white-color);
+}
+
+.futer-soc-icon {
+    fill: currentColor;
+}
+
+.futer-list {
+    margin-left: 70px;
+}
+.futer-soc-item {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+
+.futer-soc-item:first-child{
+    margin-left: 0px;
+}
+
+.futer-soc-link:hover, .futer-soc-link:focus{
+    background-color: var(--accent-color);
+    color: var(--background-white-color) ;
+
+}
 
 /* -------------- PORTFOLIO -------------- */
 .subject-button {
@@ -487,6 +579,7 @@ address {
 .subject-button:focus {
     color: var(--background-white-color);
     background-color:var(--accent-color) ;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .subject-desk {

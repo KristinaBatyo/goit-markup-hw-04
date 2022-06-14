@@ -25,8 +25,13 @@
         </ul>
          </nav>
          <ul class="contact list">
-             <li><a href="mailto:info@devstudio.com" class="mail contact-link">info@devstudio.com</a></li>
-             <li><a href="tel:+380961111111" class="number contact-link">+38 096 111 11 11</a></li>
+             <li><a href="mailto:info@devstudio.com" class="mail contact-link"> 
+                    <svg class="contact-soc-icon" width="16px" height="12px" >
+                        <use href="./images/icons.svg#icon-envelope"></use>
+                    </svg> info@devstudio.com</a></li>
+             <li><a href="tel:+380961111111" class="number contact-link"> <svg class="contact-soc-icon" width="16px" height="12px" >
+                <use href="./images/icons.svg#icon-Vector"></use>
+            </svg> +38 096 111 11 11</a></li>
          </ul>
         </div>
     </header>
@@ -43,6 +48,29 @@
     <section class="section benefits">
         <div class="container">
         <h2 class="visually-hidden">Наши преимущества</h2>
+        <ul class="benefits-list list">
+            <li class="benefits-soc-item">
+                    <svg class="benefits-soc-icon" width="70px"; height="70px"; >
+                        <use href="./images/icons.svg#icon-antenna"></use>
+                    </svg>
+            </li>
+            <li class="benefits-soc-item">
+                    <svg class="benefits-soc-icon" width="70x"; height="70px" >
+                        <use href="./images/icons.svg#icon-clock"></use>
+                    </svg>
+            </li>
+            <li class="benefits-soc-item">
+                    <svg class="benefits-soc-icon" width="70px"; height="70px" >
+                        <use href="./images/icons.svg#icon-diagram"></use>
+                    </svg>
+            </li>
+            <li class="benefits-soc-item">
+                    <svg class="benefits-soc-icon" width="70px"; height="70px" >
+                        <use href="./images/icons.svg#icon-astronaut"></use>
+                    </svg>
+            </li>
+        </li>
+            </ul>
         <ul class="feature-list list">
         <li class="title-list">
             <h3 class="title">Внимание к деталям</h3>
@@ -286,7 +314,8 @@
     </main>
     <!--Футер-->
     <footer class="futer-icon">
-        <div class="container">
+        <div class="container futer-container">
+        <div>
         <a href="./index.html" class="logo futer-logo">Web<span class="logo-light">Studio</span></a>
         <address class="adress-futer">
             <p class="location-futer">г.Киев, пр-т Леси Украинки, 26</p>
@@ -299,7 +328,44 @@
             </li>
             </ul>
         </address>
+    </div>
+    <div class="futer-list">
+        <p class="text-futer">присоединяйтесь</p>
+
+            <ul class="futer-soc-list list">
+                <li class="futer-soc-item">
+                    <a href="" class="futer-soc-link link">
+                        <svg class="futer-soc-icon" width="20px" height="20px" >
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="futer-soc-item">
+                    <a href="" class="futer-soc-link link">
+                        <svg class="futer-soc-icon" width="20px" height="20px" >
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="futer-soc-item">
+                    <a href="" class="futer-soc-link link">
+                        <svg class="futer-soc-icon" width="20px" height="20px" >
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="futer-soc-item">
+                    <a href="" class="futer-soc-link link">
+                        <svg class="futer-soc-icon" width="20px" height="20px" >
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+                </ul>
+            </div>
         </div>
+
+
     </footer>
 </body>
 </html>
